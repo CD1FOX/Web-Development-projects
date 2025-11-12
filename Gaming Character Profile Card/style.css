@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(11, 38, 61);
+    color: white;
+}
+
+.role_class, .brimstone_potrait {
+    width: 200px;
+    height: 200px;
+}
