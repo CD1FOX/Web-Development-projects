@@ -193,3 +193,11 @@ body {
 .contact-links a:hover{
     color: #0077b5;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
