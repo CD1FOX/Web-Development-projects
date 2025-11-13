@@ -76,3 +76,57 @@ body {
     font-size: 1.1em;
     line-height: 1.6;
 }
+
+.skills-section {
+    background-color: #f4f4f4;
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.skills-group {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.skill-level.html {
+    width: 90%;
+    background-color: orange;
+}
+
+.skill-level.css {
+    width: 50%;
+    background-color: dodgerblue;
+}
+
+.skill-level.js {
+    width: 10%;
+    background-color: gold;
+}
