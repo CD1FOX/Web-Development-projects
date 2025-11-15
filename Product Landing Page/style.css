@@ -1,7 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: Arial;
-    scroll-behavior: smooth;
 }
 
 .hero-section {
@@ -35,6 +38,7 @@ body {
     font-size: 20px;
     border-radius: 8px;
     transition: 0.3s;
+    margin-top: 10px;
 }
 
 .btn:hover {
@@ -152,17 +156,64 @@ body {
     margin-bottom: 10px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #ff914d;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 8px;
-    transition: 0.3s;
+.pricing-section {
+    padding: 60px;
+    text-align: center;
+    background-color: #fff3d6;
 }
 
-.btn:hover {
-    background-color: #ff6a00;
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.price-box {
+    background: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.price-box:hover {
+    transform: translateY(-10px);
+}
+
+.price-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #ff6a00;
+}
+
+.desc {
+    margin-bottom: 15px;
+}
+
+.popular {
+    border: 3px solid #ff914d;
+}
+
+.popular-tag {
+    background-color: #ff914d;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+small {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+    font-size: 14px;
 }
