@@ -317,3 +317,82 @@ small {
     color: #555;
     font-size: 16px;
 }
+
+.comparison-section {
+    padding: 60px 20px;
+    background-color: #fff9f0;
+    text-align: center;
+}
+
+.comparison-table {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.table-row:hover {
+    background-color: #fffbf5;
+    transform: scale(1.01);
+}
+
+.table-row.header {
+    background-color: #ff914d;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.table-row.header .feature,
+.table-row.header .our-donut,
+.table-row.header .regular-donut {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.feature, .our-donut, .regular-donut {
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature {
+    font-weight: bold;
+    background-color: #fffaf5;
+    border-right: 1px solid #eee;
+}
+
+.our-donut {
+    color: #2e7d32;
+    font-weight: 500;
+}
+
+.regular-donut {
+    color: #c62828;
+}
+
+.comparison-section .btn {
+    margin-top: 30px;
+    background-color: #ff914d;
+    transition: all 0.3s ease;
+}
+
+.comparison-section .btn:hover {
+    background-color: #ff6a00;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 145, 77, 0.4);
+}
